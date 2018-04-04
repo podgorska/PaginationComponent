@@ -1,15 +1,3 @@
-// Zadanie 2.
-// Napisz komponent paginacji, który bedzie przyjmowal propsy:
-// itemsCount:
-// itemsPerPage:
-// currentPage:
-// onChange:
-//
-// paginacja ma zawsze wyswietlac:
-// strzalke do tylu
-// maksymalnie trzy numerki
-// strzalke do przodu
-// strzalki maja sie blokowac w uzasadnionych przypadkach
 import React from 'react';
 import arrow from './arrow.svg';
 import './PaginationComponent.css';
