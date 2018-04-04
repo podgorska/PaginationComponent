@@ -1,0 +1,39 @@
+.rightArrow {
+  transform: rotate(180deg);
+}
+
+.button {
+  cursor: pointer;
+  width: 60px;
+  height: 30px;
+  background: rgba(162, 144, 168, 0.3);
+  border: #a290a8;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  background: rgba(162, 144, 168, 0.6);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.button:disabled:hover {
+  background: rgba(162, 144, 168, 0.3);
+}
+
+.currentPage {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.paginationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
