@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PaginationComponent from './PaginationComponent';
+import { encodeStrings } from './functions';
 import './App.css';
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
         const {currentPage } = this.state;
         return (
             <div className="App">
+                {encodeStrings('abc', 'aab', 'cbd')}
                 <PaginationComponent
                     itemsCount={12}
                     itemsPerPage={2}
